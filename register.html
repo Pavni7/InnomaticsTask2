@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company Directory Portal</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <h1>Company Directory Portal</h1>
+
+    
+    <section>
+        <h2>Employee Registration Form</h2>
+        <form>
+            <label for="fullName">Full Name:</label>
+            <input type="text" id="fullName" name="fullName" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="department">Department:</label>
+            <select id="department" name="department">
+                <option value="HR">HR</option>
+                <option value="Engineering">Engineering</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Sales">Sales</option>
+            </select>
+
+            <label for="employeeId">Employee ID:</label>
+            <input type="number" id="employeeId" name="employeeId" required>
+
+            <label for="profilePic">Profile Picture URL:</label>
+            <input type="url" id="profilePic" name="profilePic" required>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+     <section>
+        <h2>Employee List</h2>
+        <ol>
+            <li><a href="https://www.linkedin.com/in/pavani-borusu/">1. Pavani</a></li>
+            <li><a href="https://www.linkedin.com/in/pavani-borusu/">2. Moksha</a></li>
+        </ol>
+    </section>
+
+  
+    <section>
+        <h2>Employee Details Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Employee ID</th>
+                    <th>Department</th>
+                    <th>Profile Picture</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>pavani</td>
+                    <td>101</td>
+                    <td>HR</td>
+                    <td><img src="https://www.linkedin.com/in/pavani-borusu/" alt="pic" width="50"></td>
+                </tr>
+                <tr>
+                    <td>Moksha</td>
+                    <td>102</td>
+                    <td>Engineering</td>
+                    <td><img src="https://www.linkedin.com/in/pavani-borusu/" alt="pic" width="50"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+ 
+    <section>
+      <h2>Innomatics Research Labs Location</h2>
+      <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d38051.167391277!2d78.2894325!3d17.4558308!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb93c315877c21%3A0x2769c88dfe665466!2sInnomatics%20Research%20Labs!5e0!3m2!1sen!2sin!4v1695804529862!5m2!1sen!2sin"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+  
+</body>
+</html>
